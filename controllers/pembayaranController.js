@@ -181,8 +181,8 @@ export const midtrans = async (req,res) =>{
     try {
         const snap = new midtransClient.Snap({
             isProduction: false,
-            serverKey: 'SB-Mid-server-V_SmYG0iwwM2Rpl5dyhhnHqp',
-            clientKey: 'SB-Mid-client-ChEUWR9FX2MxoH8T',
+            serverKey: 'xxxxxxx',
+            clientKey: 'xxxxxxx',
         });
 
         const parameter = {
